@@ -1,0 +1,68 @@
+
+<!--
+################################################################
+Modifications may have been made to this file by Campus Pipeline.
+Specific tags have been modified to prevent malicious scripts
+from running or to prevent display problems.  The following
+tags may have been used to replace existing tags in this file
+and can be restored to their original state by removing the 'x':
+xSCRIPT, xSTYLE, xLINK, xBASE, xMETA
+################################################################
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<link href="style.css" rel="stylesheet" type="text/css">
+<HTML>
+
+<head>
+	  <TITLE> Temperature Converter </TITLE>
+</head>
+
+<BODY >
+<div id="header"><h1> COMP 3613 Lab04 </h1> </div>
+<div id="leftcolumn">
+StudentID: A00928010 <br>
+Name: Chaitanya Garikiparthi
+</div>
+
+
+<form action="ShowTable.do" name="orderForm" method="post" onSubmit="return submitIt(this)"  >     
+<!--  <form action="ShowInput.do" name="orderForm" method="post"> -->
+<table align="center" >
+	<tr><td>&nbsp;</td></tr>
+	<tr>
+		<td align="center"><h1>Database Table Metadata</h1></td>
+	</tr>
+</table>
+<table align="center" >
+	
+	<tr>
+		<td align="center">Pick a table:</td>
+	</tr>
+</table>
+<table align="center">
+	<tr>
+	<select name="dbname">
+  			<option selected value="Beatles">Beatles</option>
+  			<option value="COFFEES_GARIKI">COFFEES_GARIKI</option>
+  			<option value="Student">Student</option>
+  			<option value="Contacts">Contacts</option>
+  			<option value="Customers">Customers</option>
+  			<option value="Orders">Orders</option>
+  			<option value="Accounts">Accounts</option>
+  	</select>
+	</tr>
+</table>
+<table align="center">
+	<tr>
+		<td ><input type="submit" value="SELECT" class="btn" /></td>
+		
+	</tr>
+</table>
+
+</form>
+<br />
+
+<div id="footer"></div>
+</BODY>
+</HTML>
+
