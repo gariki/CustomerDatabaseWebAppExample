@@ -47,9 +47,10 @@ public class ShowTable extends HttpServlet {
 		
 		
 		driverString = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-		url = "jdbc:sqlserver://Beangrinder.bcit.ca";
-		userName = "javastudent";
-		passWord = "compjava";
+		// CHANGE DB CONNECTION STRING and CONNECTION INFO AS NEEDED
+		url = "MYSQL URL";
+		userName = "USERNAME";
+		passWord = "PASSWORD";
 		dbname = "A00928010_Members";
 		
 		
